@@ -1,0 +1,344 @@
+*{
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;/*Height and width are in Border area good thing in major projects*/
+
+}
+
+/*Parent clas of Navigation Bar*/
+.navbar{
+    height: 60px;
+    
+   background-color: black;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+/*Box1 Navigation Bar*/
+.nav-logo{
+
+    height: 50px;
+    width: 100px;
+}
+.logo{
+   height: 50px;
+   width: 100px;
+   background-size:cover;
+   background-image: url(navbar.png);
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    border: 1.5px solid white;
+}
+.nav-add{
+
+   height: 50px;
+   width: 74px;
+}
+.nav-add i{
+    font-size: 16px;
+}
+/*Box2 Navigation Icon*/
+
+.add-first{
+    margin-top: 9px;
+    margin-left: 15px;
+    color: #cccc;
+    font-size: 0.7rem;
+
+}
+.add-second{
+    font-size: 1rem;
+    font-size: 14px;
+    margin-left: 4px;
+    
+}
+.add-icon{
+    display: flex;
+   align-items: center;
+   margin-bottom: 55px;
+   
+}
+/*Box3 Navigation Search*/
+.nav-search{
+    display: flex;
+    justify-content: space-evenly;
+    background-color: pink;
+    width: 650px;
+    height: 30px;
+    border-radius: 4px;
+}
+.search-select{
+    width: 50px;
+    text-align: center;
+    background-color: #f3f3f3;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border:none;
+    padding: 2px;
+}
+.search-icon{
+    width: 45px;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   font-size: 1.3rem;
+   background-color:#febd68;
+   border-top-right-radius: 4px;
+   border-bottom-right-radius: 4px;
+}
+.nav-search:hover{
+    border: 1.6px solid orange;
+}
+/*Box4 Navigation Signin*/
+
+.nav-singin{
+    padding: 5px;
+}
+.nav-first{
+    font-size: 0.7rem;
+}
+.nav-second{
+    font-size: 0.9rem;
+    font-weight: 700;
+    line-height: 15px;
+}
+/*Box5 Navigation Signin*/
+.nav-return{
+    height: 30px;
+    width: 60px;
+    padding: 5px;    
+}
+/*Box5 Navigation Card*/
+
+.nav-cart{
+    height: 36px;
+    width: 60;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 5px;
+    
+}
+.nav-cart i{
+    font-size: 30px;
+    margin-top: 8px;
+}
+.inner{
+    font-size: 0.9rem;
+    font-weight: 700;
+}
+
+/*Parent class of Panel*/
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+/*Panel Box1 */
+.panel-all{
+    font-size: medium;
+    padding: 3px;
+}
+.panel-all i{
+    font-size: medium;
+    padding: 5px;
+}
+.panel-ops p{
+    display: inline;
+    margin-left: 20px;
+}
+.panel-ops{
+    width: 70%;
+    font-size: 0.8rem;
+    font-weight: 600;
+}
+.panel-deals{
+    font-size: 0.9rem;
+    font-weight: 700
+}
+/*Hero Section*/
+.hero-sec{
+    height:400px;
+    width: 100%;
+    background-size: cover;
+    background-image: url(hero.png);
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    
+}
+.hero-msg{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 40px;
+    background-color: white;
+    font-size: 0.85rem;
+    margin-bottom:63px;
+    width: 95%;
+}
+.hero-msg a{
+    color: #007185;
+    text-decoration: none;
+}
+/*Shop section*/
+.box{
+    border: 1px solid transparent;
+    border-radius: 5px;
+    height: 320px ;
+    width: 22%;
+    background-color: white;
+    padding: 10px 0px 15px;
+    margin-top: 10px;
+}
+.shop-sec{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+   
+    background-color: #e2e7e6;
+}
+.box-img{
+    background-size: cover;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    height: 250px;
+}
+.box-content{
+    
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+.box-content a{
+    color: #007185;
+    text-decoration: none;
+}
+/*Footer Section*/
+.footer-panel1{
+    margin-top: 100px;
+    background-color: #37475a;
+    height: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.8rem;
+}
+.footer-panel2{
+    background-color:#222f3d;
+    color: white;
+    height: 400px;
+    display: flex;
+    justify-content: space-evenly;
+    
+}
+.footer-panel2 a{
+    text-decoration: none;
+    display: flex;
+    color:#DDDD;
+    padding: 10px;
+    font-size: 0.8rem;
+}
+.footer-panel2 p{
+    font: size 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.footer-panel3{
+    background-color:#222f3d;
+    height: 70px;
+    border-top: 0.5px solid white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+
+}
+.footer-logo{
+    height: 45px;
+    width: 100px;
+    background-size:cover;
+    background-image: url("navbar.png");
+}
+.lang{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    border: 0.3px solid white;
+    height: 30px;
+    width: 100px;
+}
+.lang:hover{
+    border: 1.5px solid white;
+}
+.hero-msg:hover{
+    border: 2px solid black;
+}
+.box:hover{
+    border: 2px solid black;
+}
+.dollar{
+    height: 30px;
+    width: 140px;
+    border: 0.3px solid white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+}
+.flag{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #cccccc;
+    border: 0.3px solid white;
+    height: 30px;
+    width: 100px;
+}
+.eng{
+    margin-left: 5px;
+}
+.pak{
+    margin-left: 5px;
+}
+.eng2{
+    margin-left: 5px;
+}
+.foot-panel{
+    height: 70px;
+    background-color: #131a22;
+}
+.page1{
+    font-size: 0.8rem;
+    display: flex;
+    justify-content: center;
+}
+.page1 a{
+    margin-top: 16px;
+    color: #DDDD;
+    text-decoration: none;
+    margin-left: 30px;
+   
+}
+.page2{
+    font-size: 0.8rem;
+    margin-top: 7px;
+    color: #DDDD;
+    display: flex;
+    justify-content: center;
+  
+}
